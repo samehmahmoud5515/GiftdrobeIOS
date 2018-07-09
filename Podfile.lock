@@ -1,0 +1,168 @@
+PODS:
+  - BmoViewPager (4.0.5)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CountryPicker (1.0.4)
+  - DropDown (2.3.1)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FacebookLogin (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKLoginKit (~> 4.27)
+  - FacebookShare (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKShareKit (~> 4.27)
+  - FBSDKCoreKit (4.31.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.31.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.31.1):
+    - FBSDKCoreKit (~> 4.31.1)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.6.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.1.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.14):
+    - GTMSessionFetcher/Full (= 1.1.14)
+  - GTMSessionFetcher/Core (1.1.14)
+  - GTMSessionFetcher/Full (1.1.14):
+    - GTMSessionFetcher/Core (= 1.1.14)
+  - ImageSlideshow (1.5.1):
+    - ImageSlideshow/Core (= 1.5.1)
+  - ImageSlideshow/Core (1.5.1)
+  - ImageSlideshow/Kingfisher (1.5.1):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - Kingfisher (4.6.4)
+  - M13Checkbox (3.2.2)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - OneSignal (2.8.1)
+  - PagingMenuController (2.2.0)
+  - Segmentio (3.0)
+  - SlideMenuControllerSwift (4.0.0)
+  - SwifterSwift (4.2.0):
+    - SwifterSwift/AppKit (= 4.2.0)
+    - SwifterSwift/CoreGraphics (= 4.2.0)
+    - SwifterSwift/CoreLocation (= 4.2.0)
+    - SwifterSwift/Foundation (= 4.2.0)
+    - SwifterSwift/MapKit (= 4.2.0)
+    - SwifterSwift/SwiftStdlib (= 4.2.0)
+    - SwifterSwift/UIKit (= 4.2.0)
+  - SwifterSwift/AppKit (4.2.0)
+  - SwifterSwift/CoreGraphics (4.2.0)
+  - SwifterSwift/CoreLocation (4.2.0)
+  - SwifterSwift/Foundation (4.2.0)
+  - SwifterSwift/MapKit (4.2.0)
+  - SwifterSwift/SwiftStdlib (4.2.0)
+  - SwifterSwift/UIKit (4.2.0)
+  - SwiftMessages (4.1.0)
+  - Toast-Swift (3.0.1)
+  - TTRangeSlider (1.0.5)
+  - UICheckbox.Swift (1.0.0)
+
+DEPENDENCIES:
+  - BmoViewPager (~> 4.0.0)
+  - CountryPicker (from `https://github.com/SURYAKANTSHARMA/CountryPicker/`, tag `1.0.5`)
+  - DropDown
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - Google/SignIn
+  - ImageSlideshow (~> 1.5)
+  - ImageSlideshow/Kingfisher
+  - Kingfisher (~> 4.0)
+  - M13Checkbox
+  - NVActivityIndicatorView
+  - OneSignal
+  - PagingMenuController
+  - Segmentio (~> 3.0)
+  - SlideMenuControllerSwift
+  - SwifterSwift
+  - SwiftMessages
+  - Toast-Swift (~> 3.0.1)
+  - TTRangeSlider
+  - UICheckbox.Swift
+
+EXTERNAL SOURCES:
+  CountryPicker:
+    :git: https://github.com/SURYAKANTSHARMA/CountryPicker/
+    :tag: 1.0.5
+
+CHECKOUT OPTIONS:
+  CountryPicker:
+    :git: https://github.com/SURYAKANTSHARMA/CountryPicker/
+    :tag: 1.0.5
+
+SPEC CHECKSUMS:
+  BmoViewPager: 1bbba2f3d9bad4e255b0e397dc035e9a0c434eb5
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CountryPicker: d07b751509488a10223b54c61437149915532c25
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FacebookLogin: 0af839ea858faef99550d16596b87b4a8e8906e6
+  FacebookShare: 0469964297ebd75f052be2c5083389a4208e82b7
+  FBSDKCoreKit: e08ccfcefa7bc1347a07c276dac9bf6c7fe57024
+  FBSDKLoginKit: 99797ac39252fef6f72600b886f6ee60b4b29cab
+  FBSDKShareKit: e640c41c9fcd61929eeb3d0c21ad335103e7cb62
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 390ea358e5a0d0133153806f744662dad933d06b
+  ImageSlideshow: ae3de479b8c70dc751142d21573f5a28dbb97d4d
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  M13Checkbox: a8c2491cfbbca10797925fd0b9154a782bf40d89
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  OneSignal: 7dfd61c1ea88571ddf772c53c7ae45407c5eb2f7
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+  Segmentio: 1607fba3b42230f5f91e997d1a3f337f1176674c
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
+  SwifterSwift: 1d101dcfb0c3123226900f3b4d220d57fb60d546
+  SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+  UICheckbox.Swift: 85715689206fac5bae38b308f19c2a3e00442c3b
+
+PODFILE CHECKSUM: f6cab0d0f0498d90c95a974815e0feaa2bcea34f
+
+COCOAPODS: 1.4.0

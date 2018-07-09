@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Address" representedClassName="Address" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Bouquet" representedClassName="Bouquet" syncable="YES">
+        <attribute name="card_message_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="generatedId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schedule_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cart" representedClassName="Cart" syncable="YES">
+        <attribute name="generatedId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wrappingCount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Flowers" representedClassName="Flowers" syncable="YES">
+        <attribute name="bouquetId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="card_message_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="schedule_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GiftsCard" representedClassName="GiftsCard" syncable="YES">
+        <attribute name="giftGeneratedId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Wrappings" representedClassName="Wrappings" syncable="YES">
+        <attribute name="generatedGiftId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="giftId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Address" positionX="-63" positionY="18" width="128" height="120"/>
+        <element name="Bouquet" positionX="-54" positionY="72" width="128" height="165"/>
+        <element name="Cart" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Flowers" positionX="-63" positionY="45" width="128" height="150"/>
+        <element name="Wrappings" positionX="-63" positionY="36" width="128" height="135"/>
+        <element name="GiftsCard" positionX="-54" positionY="90" width="128" height="105"/>
+    </elements>
+</model>
